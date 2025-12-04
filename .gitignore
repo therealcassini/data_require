@@ -8,8 +8,11 @@ pnpm-debug.log*
 lerna-debug.log*
 
 # Dependency directories
-node_modules/
-jspm_packages/
+frontend/node_modules/
+backend/.env
+backend/__pycache__/
+
+frontend/dist/
 
 # Build outputs
 dist/
